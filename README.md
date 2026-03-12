@@ -35,5 +35,94 @@ The Security Log Analyzer reads log files and highlights suspicious patterns suc
 ---
 
 ## Example Logs Analyzed
+/var/log/auth.log
+/var/log/syslog
+/var/log/secure
+
+These logs contain authentication events, login attempts, and security-related activities.
+
+---
+
+## Example Output
+WARNING: Multiple failed login attempts detected
+
+IP Address: 192.168.1.25
+Attempts: 6
+
+This output indicates that the system detected multiple failed login attempts from a single IP address, which may suggest a brute-force attack.
+
+---
+
+## Installation
+
+Clone the repository:
+git clone https://github.com/claude125/security-log-analyzer.git
+
+Navigate into the project directory:
+cd security-log-analyzer
+Install required dependencies:
+
+
+pip install -r requirements.txt
+
+
+---
+
+## Running the Tool
+
+Run the log analyzer script:
+
+
+python log_analyzer.py
+
+
+The script will scan the log file and report suspicious login attempts.
+
+---
+
+## Project Structure
+
+
+security-log-analyzer
+│
+├── README.md
+├── log_analyzer.py
+└── requirements.txt
+
+
+---
+
+## Use Cases
+
+This tool can be useful for:
+
+- System administrators monitoring server security
+- Security engineers detecting brute-force login attempts
+- DevOps teams monitoring authentication logs
+- Cybersecurity students learning about log analysis
+
+---
+
+## Future Improvements
+
+Possible future enhancements include:
+
+- Real-time log monitoring
+- Email alerts for suspicious activity
+- Machine learning anomaly detection
+- Dashboard visualization for security events
+- Integration with SIEM systems
+- Support for additional log formats
+
+---
+
+## Author
+
+Claude Dusengimana  
+Senior Network & Security Engineer  
+Kigali, Rwanda
+
+LinkedIn: https://linkedin.com/in/dusengimana-claude  
+GitHub: https://github.com/claude125
 
 The tool can analyze logs such as:
