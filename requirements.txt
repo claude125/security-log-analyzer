@@ -1,0 +1,4 @@
+# Security Log Analyzer dependencies
+
+# This project uses Python standard libraries
+# No external dependencies required
