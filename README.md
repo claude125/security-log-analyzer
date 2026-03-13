@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:030712,50:1a0a00,100:ff4757&height=200&section=header&text=Security%20Log%20Analyzer&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Python-Powered%20Linux%20Log%20Analysis%20%26%20Intrusion%20Detection&descSize=15&descAlignY=58&animation=fadeIn)
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1500&color=FF4757&center=true&vCenter=true&width=750&height=40&lines=🔍+Detect+Brute-Force+Attacks+in+Real+Time;🚨+Identify+Suspicious+IP+Addresses+Instantly;📋+Analyze+auth.log+%2F+syslog+%2F+secure;🛡️+Built+for+SysAdmins+%26+Security+Engineers;⚡+Lightweight+CLI+—+Zero+Dependencies+Overhead)](https://git.io/typing-svg)
 
